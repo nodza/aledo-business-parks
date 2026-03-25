@@ -91,21 +91,9 @@
             z-index: 100;
         }
 
-        .logo {
-            font-family: 'Oswald', sans-serif;
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--orange);
-            text-decoration: none;
-            letter-spacing: -1px;
-        }
-
-        .logo span {
-            font-size: 0.8rem;
-            display: block;
-            color: var(--black);
-            letter-spacing: 2px;
-            margin-top: -5px;
+        .logo img {
+            height: 80px;
+            width: auto;
         }
 
         nav {
@@ -419,6 +407,13 @@
             color: var(--mid-gray);
         }
 
+        .feature-note {
+            font-size: 0.85rem;
+            font-style: italic;
+            margin-top: 0.5rem;
+            color: var(--mid-gray);
+        }
+
         /* Contact Section */
         .contact {
             background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), 
@@ -528,7 +523,7 @@
     <!-- Header -->
     <header>
         <a href="#" class="logo">
-            <img src="https://aledobusinessparks.com/wp-content/uploads/2022/01/ALEDOBUSINESSPARKS-4C-LOGO2.jpg" alt="Aledo Business Parks" style="height: 60px; width: auto;">
+            <img src="https://nodza.s3.us-east-2.amazonaws.com/ALEDOBUSINESSPARKS-LOGO.jpg" alt="Aledo Business Parks">
         </a>
         <nav>
             <a href="#properties">Properties</a>
@@ -566,7 +561,7 @@
     <!-- About Section -->
     <section class="about" id="about">
         <h2>About Aledo Business Parks</h2>
-        <p>Located between Aledo and Willow Park with easy I-20 access. Full utilities including well water, septic, and high-speed internet.</p>
+        <p>Located between Aledo and Willow Park with easy I-20 access. Full utilities including well water, septic, and high-speed internet available.</p>
     </section>
 
     <!-- Featured Properties -->
@@ -630,8 +625,9 @@
                         <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
                     </svg>
                 </div>
-                <h3>On-Site Security Cameras 24/7</h3>
+                <h3>On-Site Security Cameras</h3>
                 <p>Comprehensive surveillance for your peace of mind</p>
+                <p class="feature-note">*Does not apply to office building 10201</p>
             </div>
             <div class="feature-item">
                 <div class="feature-icon">
@@ -658,7 +654,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Aledo Business Parks | All Rights Reserved | <a href="#">Privacy Policy</a></p>
+        <p>&copy; 2024 Aledo Business Parks | All Rights Reserved | <a href="#">Privacy Policy</a></p>
     </footer>
 </body>
 </html>
